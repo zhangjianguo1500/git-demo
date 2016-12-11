@@ -1,0 +1,9 @@
+push到服务器
+
+首先需要在本地生成key，并且把key配置在github上
+$ ssh-keygen -t rsa -C "jianguo1500@163.com"
+
+git add .
+git  commit -m "changes log"
+git push origin master
+
